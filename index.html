@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GOA-Where Serenity Meets Chaos</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <!--Wave-shaped Heading with Correct Title-->
+    <svg viewBox="0 0 1200 200"class="wave=Heading">
+      <defs>
+        <path id="wavePath"d="M0,100 Q300,10 600,100 T1200,100"/>
+      </defs>
+      <text font-size="45"font-weight="bold"
+        fill="#003366">
+        <textPath href="#wavePath" startOffset="20%">
+          Goa-Where Serenity Meets Chaos
+        </textPath>
+      </text>
+      
+      gradientTransform="rotate(90)">
+    <stop offset="0%"stop-color="#00b4d8"/>
+  <stop offset="100%"stop-color="#90e0ef"/>
+    </svg>
+  </header>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <a href="#about">What is Tourism?</a>
+    <a href="#impact">Why is it a Problem?</a>
+    <a href="#prevent">How to Prevent?</a>
+    <a href="#opinion">Your Opinion</a>
+  </nav>
+
+  <!-- Dark Mode Toggle -->
+  <div class="toggle-mode">
+    <button onclick="toggleDarkMode()">🌗 Toggle Dark Mode</button>
+  </div>
+
+  <!-- Floating Icons -->
+  <div class="floating-icons">
+    <img src="icon1_coconut.png" class="icon" />
+    <img src="icon2_feni.png" class="icon" />
+    <img src="icon3_fish.png" class="icon" />
+    <img src="icon4_drum.png" class="icon" />
+    <img src="icon5_palm.png" class="icon" />
+    <img src="icon6_shell.png" class="icon" />
+    <img src="icon7_culture.png" class="icon" />
+    <img src="icon8_house.png" class="icon" />
+    <img src="icon9_star.png" class="icon" />
+    <img src="icon10_wave.png" class="icon" />
+    <img src="icon11_flower.png" class="icon" />
+    <img src="icon12_scooter.png" class="icon" />
+  </div>
+
+  <!-- Section 1: What is Tourism -->
+  <section id="about">
+    <h2>What is Tourism?</h2>
+    <p>
+      Tourism is the act of traveling to new places for leisure, exploration, or business. Goa, with its pristine beaches and vibrant culture, attracts millions of tourists each year. People come to experience the sun, sand, festivals, food, and unique Goan way of life. Tourism boosts the local economy and provides livelihoods to thousands. However, when unmanaged, it can also put stress on the environment and cultural heritage.
+    </p>
+    <img src="local1.jpg" alt="Local Culture" class="topic-image"/>
+    <img src="local2.jpg" alt="Local People" class="topic-image"/>
+    <img src="local3.jpg" alt="Goan Vibe" class="topic-image"/>
+  </section>
+
+  <!-- Section 2: Why is it a Problem? -->
+  <section id="impact">
+    <h2>Why is it a Problem?</h2>
+    <p>
+      While tourism brings income, it also causes serious issues in Goa. Overcrowding on beaches, noise from parties, pollution, disrespect of local traditions, and illegal constructions are just a few examples. The beauty of Goa is being threatened by careless visitors and unchecked development. The charm of its peaceful villages is fading under tourist pressure. Cultural authenticity is at risk.
+    </p>
+    <img src="problem1_pollution.jpg" class="topic-image"/>
+    <img src="problem2_overcrowding.jpg" class="topic-image"/>
+    <img src="problem3_cutting.jpg" class="topic-image"/>
+    <img src="problem4_noise.jpg" class="topic-image"/>
+    <img src="problem5_building.jpg" class="topic-image"/>
+    <img src="problem6_disrespect.jpg" class="topic-image"/>
+  </section>
+
+  <!-- Section 3: How to Prevent? -->
+  <section id="prevent">
+    <h2>How to Prevent?</h2>
+    <p>
+      To protect Goa, tourists and locals must work together. Eco-tourism, awareness campaigns, strict waste control, promoting local arts, and respecting rules are steps toward sustainable tourism. Authorities must enforce regulations on illegal structures and noise limits. If we all act responsibly, Goa’s beauty can be preserved for generations.
+    </p>
+    <img src="festival1_carnival.jpg" class="topic-image"/>
+    <img src="festival2_shigmo.jpg" class="topic-image"/>
+    <img src="goa1.jpg" class="topic-image"/>
+    <img src="goa2.jpg" class="topic-image"/>
+    <img src="goa3.jpg" class="topic-image"/>
+    <img src="goa4.jpg" class="topic-image"/>
+    <img src="goa5.jpg" class="topic-image"/>
+  </section>
+
+  <!-- Section 4: Your Opinion -->
+  <section id="opinion">
+    <h2>Your Opinion</h2>
+    <p>
+      What do you think? Should Goa limit tourism? Is there a better way to manage tourists? Do visitors understand the impact they leave behind? Share your thoughts below. Every opinion matters when it comes to saving a place we all love.
+    </p>
+    <img src="business1.jpg" class="topic-image"/>
+    <img src="business2.jpg" class="topic-image"/>
+  </section>
+
+  <!-- Background video -->
+  <video autoplay muted loop id="bg-video">
+    <source src="waves.mp4" type="video/mp4"/>
+  </video>
+
+  <p>
+    Your voice matters! Share your thoughts on how we can preserve Goa’s beauty while supporting responsible tourism.
+    Your ideas can create change. 🌴💬
+  </p>
+
+  <form id="opinionForm">
+    <textarea id="opinionInput" placeholder="Type your opinion here..." required></textarea>
+    <button type="submit">Submit</button>
+    <p id="thankYouMsg" class="hidden">🌟 Thank you for sharing your opinion!</p>
+  </form>
+</section>
+<footer class="site-footer">
+      <div class="footer-content">
+        <p>🌊 Thank you for visiting our Goa tourism awareness site!</p>
+        <p>✨ Created with ❤️ by <strong>Shruthi</strong></p>
+        <div class="footer-icons">
+          <img src="icon6_shell.png" alt="Shell Icon">
+          <img src="icon3_fish.png" alt="Fish Icon">
+          <img src="icon5_palm.png" alt="Palm Icon">
+          <img src="icon12_scooter.png" alt="Scooter Icon">
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+    </html>
